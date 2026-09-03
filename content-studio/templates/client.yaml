@@ -1,0 +1,49 @@
+name: New client
+platforms:
+- instagram
+- tiktok
+- youtube
+longform:
+  enabled: false
+  pacing: Natural conversation; preserve pauses for emphasis and speaker handoffs.
+  target_duration: null
+  remove_dead_space: true
+  remove_filler: false
+  b_roll: false
+  subtitles: false
+  motion_graphics: true
+shortform:
+  enabled: true
+  clips_per_video: 5
+  min_duration: 25
+  max_duration: 75
+  aspect_ratio: '9:16'
+  pacing: Premium founder content; keep complete ideas and natural delivery.
+  reframe: auto
+captions:
+  enabled: true
+  style: clean
+  font: Arial
+  position: safe-bottom
+  max_lines: 2
+  word_emphasis: false
+graphics:
+  enabled: true
+  engine: hyperframes
+  style: Restrained typography, clean diagrams, generous space, no stock stickers.
+  frequency: sparse
+brand:
+  primary_colour: '#141820'
+  secondary_colour: '#F4F3EE'
+  accent_colour: '#A8D5BA'
+  fonts:
+  - Arial
+  logo: null
+content_preferences:
+  preferred_topics: []
+  avoid_topics: []
+  preferred_hooks:
+  - Specific problem
+  - Unexpected lesson
+  CTA_style: One relevant question or a calm invitation. No invented offers.
+creative_notes: []

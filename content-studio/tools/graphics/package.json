@@ -1,0 +1,10 @@
+{
+  "name": "axis-local-graphics",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local HyperFrames animation slots for Axis Content Studio",
+  "dependencies": {
+    "hyperframes": "0.8.26",
+    "gsap": "3.15.0"
+  }
+}

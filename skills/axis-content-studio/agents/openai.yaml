@@ -1,0 +1,4 @@
+interface:
+  display_name: "Axis Content Studio"
+  short_description: "Turn client footage into reviewed edits and shorts"
+  default_prompt: "Use $axis-content-studio to process my latest client project using their saved creative preferences."

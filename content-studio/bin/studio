@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+STUDIO_APP_DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+exec "$STUDIO_APP_DIR/.venv/bin/python" -m studio.cli "$@"
