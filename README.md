@@ -1,4 +1,6 @@
-# Axis content studio
+# Corey Kavanagh content studio
+
+This repository contains the earlier `axis-content-studio` implementation. Corey Kavanagh is the current practice. The checked-in installer, skill name and `AXIS_STUDIO_APP` environment variable retain their existing identifiers; use the commands below for this checkout.
 
 A Codex skill and local Python CLI for a one-person content editing business.
 Give Codex footage, a client name and an editing brief. It uses saved preferences
@@ -17,7 +19,7 @@ and are excluded from Git.
 
 ## Install
 
-Verified on macOS with Python 3.12, Node 22 or newer, and system `ffprobe`.
+The recorded development environment was macOS with Python 3.12, Node 22 or newer, and system `ffprobe`. The Python package requires Python 3.12+.
 Install those prerequisites first. Python dependencies include a subtitle-capable
 FFmpeg fallback.
 
@@ -71,7 +73,7 @@ cd content-studio
 .venv/bin/mypy --config-file pyproject.toml
 ```
 
-The original private development run used a 44-minute business podcast, generated
+The recorded private development run used a 44-minute business podcast, generated
 18 candidates, rendered a representative YouTube section and three shorts, and
 included a HyperFrames insert. Its footage, transcript, copy and exports are not
 distributed here. Technical checks do not replace watching and listening before

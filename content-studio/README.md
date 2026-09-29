@@ -1,4 +1,4 @@
-# Axis content studio
+# Corey Kavanagh content studio
 
 A local production workspace for a one-person editing business. Python manages
 files, media operations and review state. Codex reads the complete transcript and
@@ -8,8 +8,9 @@ There is no server, frontend, account system, billing or publishing integration.
 
 ## First client
 
-Install dependencies using the repository README first. On the original studio
-Mac, these dependencies are already installed. From the repository root:
+Install dependencies using [the repository README](../README.md) first. A fresh
+checkout does not contain the local virtual environment or media dependencies.
+From the repository root:
 
 ```sh
 cd content-studio
@@ -160,7 +161,7 @@ The same track is used for transcription and output. Track numbering starts at 0
 Set language to null for automatic language detection, or choose a language code.
 Use a multilingual model rather than small.en for non-English sources.
 
-FFmpeg's `subtitles` filter is required. The Mac's Homebrew build lacked it during
+FFmpeg's `subtitles` filter is required. The original Mac's Homebrew build lacked it during
 development, so studio uses the local imageio-ffmpeg binary with libass. ffprobe
 still comes from the system. `STUDIO_FFMPEG` can select an explicit FFmpeg build.
 Node 22+ is required for HyperFrames. No cloud rendering is used.
